@@ -106,12 +106,12 @@ function payLoan() {
   return { type: "account/payLoan" };
 }
 
-store.dispatch(deposit(1000));
-store.dispatch(withdraw(100));
-store.dispatch(requestLoan(1000, "buy a car"));
-console.log(store.getState());
-store.dispatch(payLoan());
-console.log(store.getState());
+// store.dispatch(deposit(1000));
+// store.dispatch(withdraw(100));
+// store.dispatch(requestLoan(1000, "buy a car"));
+// console.log(store.getState());
+// store.dispatch(payLoan());
+// console.log(store.getState());
 
 function createCustomer(fullName, nationalID) {
   return {
